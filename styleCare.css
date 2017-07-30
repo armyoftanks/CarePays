@@ -1,0 +1,144 @@
+@font-face
+{
+    font-family:"caviarDreams";
+    src:url('CaviarDreams.ttf');
+}
+
+html{
+  max-width: 100;
+  height: auto;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top {
+  font-family: caviarDreams;
+}
+
+.top p,a {
+  display: inline;
+}
+
+.socialNav {
+  background-color: #99d2ad;
+  padding-top: 1em;
+  padding-left: 4em;
+  padding-right: 2em;
+}
+
+.socialNav p {
+  font-size: 1.3em;
+  padding-left: 2em;
+}
+
+.socialNav img {
+  width: 1.7em;
+  height: 1.7em;
+  margin-left: 2em;
+  margin-bottom: 1em;
+}
+
+.infoNav {
+  color: white;
+  background-color: #8DC9CA;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 5em;
+
+}
+
+.infoNav p {
+}
+
+.infoNav a {
+  float: right;
+  padding-right: 5em;
+  padding-top: 1em;
+  font-size: 1.25em;
+  text-decoration: none;
+  color: white;
+}
+
+.infoNav a:hover {
+  float: right;
+  padding-right: 5em;
+  padding-top: 1em;
+  font-size: 1.25em;
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  background-color: #ffffff;
+  font-family: caviarDreams;
+  padding-top: 5em;
+  padding-bottom: 10em;
+  height: auto;
+}
+
+.logo {
+    height: auto;
+    text-align: center;
+    display: block;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 2em;
+  margin-left: 10em;
+  margin-right: 10em;
+  background-color: #99d2ad;
+  color: #ffffff;
+  padding: .5em;
+}
+
+.buttons a:hover {
+  text-decoration: none;
+  font-size: 2em;
+  margin-left: 10em;
+  margin-right: 10em;
+  background-color: #99d2ad;
+  color: #ffffff;
+}
+
+.buttons a:visited {
+  text-decoration: none;
+  font-size: 2em;
+  margin-left: 10em;
+  margin-right: 10em;
+  background-color: #99d2ad;
+  color: #ffffff;
+}
+
+.buttons p {
+  font-size: 2em;
+  margin-left: 9em;
+  margin-right: 10em;
+
+}
+
+.logo h1 {
+  color: #7677b3;
+  font-style: italic;
+  margin-top: .2em;
+  text-align: center;
+}
+
+.logo img {
+  width: 40em;
+}
+
+.about {
+	padding-left: 3em;
+	padding-bottom: 2em;
+	padding-top: 1em;
+}
+
+.about p{
+	color: #ffffff;
+	font-family: caviarDreams;
+}

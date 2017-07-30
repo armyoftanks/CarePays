@@ -1,0 +1,70 @@
+@font-face
+{
+    font-family:"caviarDreams";
+    src:url('CaviarDreams.ttf');
+}
+
+html{
+  max-width: 100;
+  height: auto;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+.top {
+  font-family: caviarDreams;
+}
+
+.top p,a {
+  display: inline-block;
+}
+
+.socialNav {
+  background-color: #8DCAAC;
+}
+
+.socialNav p {
+  font-size: 1em;
+  padding-top: 1em;
+  padding-left: 2em;
+}
+
+.socialNav img {
+  width: 1.7em;
+  height: 1.7em;
+  margin-left: 2em;
+  margin-bottom: .5em;
+}
+
+.infoNav {
+  color: white;
+  background-color: #8DC9CA;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 2.5em;
+}
+
+.infoNav p {
+  padding-right: .3em;
+}
+
+.infoNav a {
+  float: right;
+  padding-right: 5em;
+  padding-top: 1em;
+  font-size: 1.25em;
+  text-decoration: none;
+  color: white;
+}
+
+.infoNav a:hover {
+  float: right;
+  padding-right: 5em;
+  padding-top: 1em;
+  font-size: 1.25em;
+  text-decoration: none;
+  color: white;
+}

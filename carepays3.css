@@ -1,0 +1,381 @@
+@font-face {
+    font-family:"caviarDreams";
+    src:url('CaviarDreams.ttf');
+}
+
+html {
+    font-family:"caviarDreams";
+}
+
+body{
+  font-family: caviarDreams;
+  background-image: url("assets/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* NAV BAR */
+
+.topNav {
+    background-color: rgba(255,255,255, .9);
+
+}
+
+.topNav row {
+    
+}
+
+.topNav a {
+    display: block;
+    color: #0097a0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.topNav a:hover:not(.active) {
+
+}
+
+.active {
+}
+
+
+/* NAV BAR END */
+
+.signup img {
+	width: 80%;
+	height: auto;
+	text-align: center;
+}
+
+.loanChoice a {
+	width: 80%;
+	background-color: rgba(255, 255, 255, .2);
+	text-decoration: none;
+}
+
+.btn btn-primary a {
+	font-size: .5em;
+}
+
+.money4care{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.money4care a {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-size: 2em;
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.btn btn-primary {
+	background-color: #0097A0;
+}
+
+.employeeBenefits {
+  background-color: rgba(255, 255, 255, .9);
+  margin: 2em;
+}
+
+.employeeBenefits .col-md-12 {
+	padding-left: 3em;
+}
+
+.employeeBenefits img {
+	width: 50%;
+	height: auto;
+	text-align: center;
+}
+
+.employeeBenefits p {
+  text-align: left;
+ color: #069aa2;
+}
+
+.employeeBenefits li {
+  text-align: left;
+  color: #069aa2;
+}
+
+.employeeBenefits a {
+  text-align: left;
+  color: #069aa2;
+}
+
+.employeeBenefits h3, h2, h1 {
+  color: #069aa2;
+  font-style: strong;
+}
+
+
+/* NEW BENEFITS ICON MENU */
+
+.benefitIconList {
+ text-align: center;
+  margin: 2em;
+  background-color: rgba(255, 255, 255,.9);
+  color: #069AA2;
+  border-size: 1px;
+}
+
+.benefitIconList a{
+	text-decoration: none;
+	
+}
+
+
+.benefitIconList img {
+	width: 100px;
+	height: auto;
+	padding-top: 2em;
+
+}
+
+.benefitIconList p {
+  padding-top: 1em;
+  color: #069AA2;
+}
+
+/* NEW BENEFITS ICON MENU END */
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.row1 {
+  font-size: 1.25em;
+}
+
+.row1 a {
+  color: #069aa2;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+.row1 a:hover {
+  color: #069aa2;
+  text-decoration: none;
+
+}
+
+.row1 a:visited {
+  color: #069aa2;
+  text-decoration: none;
+
+}
+
+.row2{
+  margin-top: 4em;
+  text-align: center;
+}
+
+.row2 p {
+  font-size: 2em;
+  color: rgba(255, 255, 255, .7);
+}
+
+.row2 h1 {
+  font-size: 4em;
+  color: #ffffff;
+}
+
+.row2 h3 {
+  color: #00868e;
+}
+
+.row2 img {
+  width: 80%;
+  height: auto;
+  padding: 0;
+}
+
+.col-sm-2 p{
+  color: #069aa2;
+  margin-top: 1em;
+}
+
+.col-sm-2 img {
+  width: 70px;
+  height: auto;
+}
+
+.col-sm-4 p{
+  color: #069aa2;
+  margin-top: 1em;
+}
+
+.col-sm-4 img {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-left: 1em;
+  width: 1.5em;
+}
+
+.col-md-4 {
+  text-align: center;
+  pading: 2em;
+}
+
+.col-md-6 img{
+  max-width: 80%;
+  height: auto;
+  padding-top: 2em;
+}
+
+.col-lg-12 {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.col-md-12 {
+	width: 100%;
+	height: auto;
+}
+
+.col-md-12 table {
+	width: 100%;
+	height: auto;
+  margin: auto;
+  position: relative;
+}
+
+/*COLLAPSING MENU */
+button.accordion {
+    background-color: #ffffff;
+    color: #069aa2;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    transition: 0.4s;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #6865a6;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #069aa2;
+    font-weight: bold;
+    float: center;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+
+}
+
+button.accordion.active:after {
+    content: "\2212";
+    color: #069aa2;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: rgba(255, 255, 255,.9);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #069aa2;
+    
+}
+
+div.panel ul{
+  text-align: left;
+  font-size: 1.5em;
+  padding: 2em;
+  color: #069aa2;
+}
+
+div.panel img {
+  display: inline;
+}
+
+div.panel a {
+   text-align: left;
+   text-decoration: none;
+   font-size: 2em;
+   background-color: #6865a6;
+   border-radius: 25px;
+   padding: 20px;
+   color: #ffffff;
+   margin-left: 2em;
+   margin-right: 2em;
+}
+
+div.panel a:hover {
+   text-align: left;
+   text-decoration: none;
+   font-size: 2em;
+   font-style: bold;
+   background-color: #6865a6;
+   border-radius: 25px;
+   padding: 20px;
+   color: #ffffff;
+   margin-left: 2em;
+   margin-right: 2em;
+}
+
+div.panel a:visited {
+   text-align: left;
+   text-decoration: none;
+   font-size: 2em;
+   background-color: #6865a6;
+   padding: 20px;
+   border-radius: 25px;
+   color: #ffffff;
+   margin-left: 2em;
+   margin-right: 2em;
+}
+/*COLLAPSING MENU END */
+
+
+.footer {
+  margin-top: 6em;
+  margin-left: 2em;
+  margin-right: 2em;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 1.5em;
+  background-color: none;
+
+}
+
+.footer a,p{
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
